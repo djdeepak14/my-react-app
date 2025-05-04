@@ -1,0 +1,32 @@
+{
+  "homepage": "https://djdeepak14.github.io/my-react-app",
+
+  "name": "my-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
+
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
+    "globals": "^16.0.0",
+    "parcel": "^2.14.4",
+    "vite": "^6.3.1"
+  }
+}
